@@ -1,0 +1,7 @@
+version: "1"
+rules:
+  - base: stable
+    upstream: PX4:stable    # change `wei` to the owner of upstream repo
+    mergeMethod: none
+    reviewers:
+      - C-Glick
